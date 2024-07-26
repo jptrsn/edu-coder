@@ -1,0 +1,10 @@
+baseURL: 'https://example.org/'
+languageCode: en-ca
+title: Edu Coder Dot Dev
+theme: PaperMod
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 10
