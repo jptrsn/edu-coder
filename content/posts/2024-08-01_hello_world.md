@@ -1,7 +1,6 @@
 ---
 title: "hello_world"
 date: 2024-08-01T00:00:00-04:00
-draft: true
 ---
 
 Okay, I'm trying something new. Well, not new, but I'm going to try to get in the habit of regularly publishing _something_ online.
