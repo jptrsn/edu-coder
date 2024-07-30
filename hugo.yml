@@ -8,3 +8,27 @@ menu:
       name: posts
       url: /posts/
       weight: 10
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 20
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+params:
+  homeInfoParams:
+    Content: >-
+      Things I think about along my journey as a coder and former educator.
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/jptrsn"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/educoder"
+    - name: "mastodon"
+      url: "https://mastodon.online/@educoder"
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+  ShowRssButtonInSectionTermList: true
