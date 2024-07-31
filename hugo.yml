@@ -5,11 +5,11 @@ theme: PaperMod
 menu:
   main:
     - identifier: posts
-      name: posts
+      name: Posts
       url: /posts/
       weight: 10
     - identifier: about
-      name: about
+      name: About
       url: /about/
       weight: 20
 outputs:
