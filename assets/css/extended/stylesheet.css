@@ -1,3 +1,25 @@
+body main {
+  max-height: calc(100vh - var(--header-height) - var(--footer-height));
+  overflow-y: auto;
+  @media screen and (max-width: 460px) {
+    max-height: calc(100vh - (2 * var(--header-height)) - var(--footer-height));
+    min-height: calc(100vh - (2 * var(--header-height)) - var(--footer-height)) !important;
+  }
+}
+
+.first-entry {
+  min-height: unset !important;
+}
+
+.first-entry > .entry-content {
+  text-align: center;
+}
+.first-entry > .entry-footer > .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
 .profile-image img {
   max-height: 250px;
   max-width: 95%;
