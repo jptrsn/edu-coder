@@ -5,11 +5,11 @@ theme: PaperMod
 menu:
   main:
     - identifier: posts
-      name: posts
+      name: Posts
       url: /posts/
       weight: 10
     - identifier: about
-      name: about
+      name: About
       url: /about/
       weight: 20
 outputs:
@@ -20,7 +20,9 @@ outputs:
 params:
   homeInfoParams:
     Content: >-
-      Things I think about along my journey as a coder and former educator.
+      Things I think about along my journey as a coder and former educator. All ideas generated entirely in meatspace.
+  description: "Things I think about along my journey as a coder and former educator. All ideas generated entirely in meatspace."
+  author: "James"
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/jptrsn"
@@ -32,3 +34,5 @@ params:
     isCaseSensitive: false
     shouldSort: true
   ShowRssButtonInSectionTermList: true
+  showreadingtime: true
+  showsharebuttons: true
