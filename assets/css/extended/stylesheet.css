@@ -26,3 +26,29 @@ body main {
   border-radius: 25%;
   padding: 1em;
 }
+
+.post-content h1 {
+  margin: 32px auto 24px !important;
+  font-size: 32px !important;
+}
+
+.post-content h2 {
+  margin: 24px auto 16px !important;
+  font-size: 24px !important;
+}
+
+.post-content h3 {
+  font-size: 16px;
+}
+
+.post-content h4 {
+  font-size: 14px;
+}
+
+.post-content h5 {
+  font-size: 12px;
+}
+
+.post-content h6 {
+  font-size: 10px;
+}
