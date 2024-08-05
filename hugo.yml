@@ -19,9 +19,13 @@ outputs:
     - JSON # necessary for search
 params:
   homeInfoParams:
-    Content: >-
+    content: >-
       Things I think about along my journey as a coder and former educator. All ideas generated entirely in meatspace.
+    imageUrl: "images/avatar.png"
+    imageTitle: "Profile Bitmoji"
+    height: 150
   description: "Things I think about along my journey as a coder and former educator. All ideas generated entirely in meatspace."
+  cover: "images/avatar.png"
   author: "James"
   socialIcons: # optional
     - name: "github"
