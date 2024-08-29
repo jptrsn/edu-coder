@@ -41,6 +41,12 @@ body main {
   padding: 1em;
 }
 
+.post-description {
+  font-size: 14px;
+  padding: 16px;
+  margin: 0;
+}
+
 .post-content h1 {
   margin: 32px auto 24px !important;
   font-size: 32px !important;
