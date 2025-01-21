@@ -39,4 +39,4 @@ params:
     shouldSort: true
   ShowRssButtonInSectionTermList: true
   showreadingtime: true
-  showsharebuttons: true
+  showsharebuttons: false
