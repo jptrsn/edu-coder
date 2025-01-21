@@ -1,5 +1,5 @@
 ---
-title: "A Balance Act"
+title: "a_balance_act"
 date: 2024-08-16T21:29:50-04:00
 description: Building a successful app means you need to be on the cutting-edge of what's being done in the space, while simultaneously serving as broad a base of users across as wide a spectrum of hardware as possible. Ultimately, both are critical to the value users will feel they get from the app, and a successful startup needs to make thoughtful decisions to accomplish their goals.
 tags: ['web-development', 'startup']
