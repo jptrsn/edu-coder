@@ -12,6 +12,10 @@ menu:
       name: About
       url: /about/
       weight: 20
+    - identifier: diversions
+      name: Diversions
+      url: /diversions/
+      weight: 30
 outputs:
   home:
     - HTML

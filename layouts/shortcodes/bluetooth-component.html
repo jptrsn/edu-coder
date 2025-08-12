@@ -1,0 +1,7 @@
+{{ $connScript := resources.Get "components/bluetooth-device-connection.js" | resources.Minify | resources.Fingerprint }}
+{{ $serviceScript := resources.Get "components/ble-service-info.js" | resources.Minify | resources.Fingerprint }}
+
+<script type="module" src="{{ $connScript.RelPermalink }}"></script>
+<script type="module" src="{{ $serviceScript.RelPermalink }}"></script>
+
+<bluetooth-device-connection></bluetooth-device-connection>
